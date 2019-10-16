@@ -2,11 +2,6 @@
 #use strict;
 use Getopt::Long;
 
-#/*************************************************************************
-#    > File Name: mis_filter_vcf_V4.pl
-#    > Author: liubei
-#    > Mail: liubei@novogene.com 
-#    > Created Time: 2015年08月19日 星期三 15时50分53秒
 # ************************************************************************/
 my ($het,$vcf,$outpath,$gqa,$outvcf,$outgene,$name,$dpmin,$dpmax,$DPmin1,$DPmax1,$gqs,$miss,$maf,$pop,$dp,$gq);
 GetOptions(
